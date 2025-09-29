@@ -1,0 +1,46 @@
+.dashboard-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.dashboard-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./../../../public/dashboard-bg.jpg") no-repeat center center;
+  background-size: cover;
+  filter: blur(2);
+  z-index: 0;
+}
+
+.dashboard-inner {
+  width: 100%;
+  padding: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.dashboard-card {
+  width: 350px;
+  height: 150px;
+  background: #41434acc;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dashboard-card:hover {
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.dashboard-title {
+  text-align: right;
+}

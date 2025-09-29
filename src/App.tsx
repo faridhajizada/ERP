@@ -28,7 +28,7 @@ const App = () => {
           }
         />
         <Route
-          path="/plan"
+          path="/dashboard/plan"
           element={
             <ProtectedRoute>
               <Plan />

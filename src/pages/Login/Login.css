@@ -34,18 +34,15 @@
 }
 
 .ant-input-password .anticon {
-  color: #888 !important;
-}
-.ant-input-password .anticon:hover {
-  color: #fff !important;
+  color: white !important;
 }
 
 .login-btn {
-  border-radius: 6px !important;
-  background: #fff !important;
-  color: #a45c3a !important;
+  border-radius: 6px;
+  background: #fff;
+  color: #a45c3a;
   font-weight: 500;
-  border: none !important;
+  border: none;
   transition: all 0.3s ease;
 }
 
