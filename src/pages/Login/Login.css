@@ -1,0 +1,55 @@
+.login-container {
+  height: 100vh;
+  background: black url("./../../../public/bg-login.jpg") no-repeat bottom
+    center;
+  background-size: contain;
+}
+
+.login-card {
+  width: 600px;
+  padding: 30px 40px;
+  border-radius: 20px;
+  background: #1c1f26 !important;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.6);
+}
+.ant-typography {
+  font-family: Helvetica Neue;
+}
+.ant-input,
+.ant-input-affix-wrapper {
+  background-color: #2a2d34 !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 6px !important;
+}
+
+.ant-input::placeholder,
+.ant-input-password input::placeholder {
+  color: #888 !important;
+}
+
+.ant-input-password input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+
+.ant-input-password .anticon {
+  color: #888 !important;
+}
+.ant-input-password .anticon:hover {
+  color: #fff !important;
+}
+
+.login-btn {
+  border-radius: 6px !important;
+  background: #fff !important;
+  color: #a45c3a !important;
+  font-weight: 500;
+  border: none !important;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #f5f5f5 !important;
+  color: #a45c3a !important;
+}
