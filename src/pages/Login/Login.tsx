@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Form, Input, Button, Card, Typography, Flex, Alert } from "antd";
-import { useLoginMutation } from "../../api/api";
+import { useLoginMutation } from "../../api/authApi";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 

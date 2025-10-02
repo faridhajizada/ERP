@@ -50,3 +50,11 @@
   background: #f5f5f5 !important;
   color: #a45c3a !important;
 }
+
+.ant-form-item-required::before {
+  color: black !important;
+}
+
+.ant-input-password .anticon {
+  color: black !important;
+}

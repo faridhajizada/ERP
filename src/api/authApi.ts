@@ -10,7 +10,7 @@ export interface LoginResponse {
   refresh_token: string;
 }
 
-export const api = createApi({
+export const authApi = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
     baseUrl: "https://api-candidates.hewart.az/account/api/",
@@ -30,4 +30,4 @@ export const api = createApi({
   }),
 });
 
-export const { useLoginMutation } = api;
+export const { useLoginMutation } = authApi;

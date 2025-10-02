@@ -1,0 +1,58 @@
+{
+  "plans": [
+    {
+      "id": "1",
+      "docNo": "1213213",
+      "projectName": "Layihe1",
+      "year": 2022,
+      "description": "ilk planlama11",
+      "volumeDivision": "Bərabər Bölünmə",
+      "status": "Aktiv"
+    },
+    {
+      "id": "2",
+      "docNo": "1213220",
+      "projectName": "Layihe2",
+      "year": 2023,
+      "description": "ilk planlama02",
+      "volumeDivision": "Tarixi Məlumatlara Əsaslanan Bölgü",
+      "status": "Deaktiv"
+    },
+    {
+      "id": "3",
+      "docNo": "1673226",
+      "projectName": "Layihe3",
+      "year": 2024,
+      "description": "ilk planlama03",
+      "volumeDivision": "Tarixi Məlumatlara Əsaslanan Bölgü",
+      "status": "Deaktiv"
+    },
+    {
+      "id": "4",
+      "docNo": "1213883",
+      "projectName": "Layihe4",
+      "description": "ilk planlama14",
+      "year": 2025,
+      "volumeDivision": "Bərabər Bölünmə",
+      "status": "Aktiv"
+    },
+    {
+      "id": "5",
+      "docNo": "1213433",
+      "projectName": "Layihe4",
+      "year": 2025,
+      "description": "ilk planlama15",
+      "volumeDivision": "Bərabər Bölünmə",
+      "status": "Aktiv"
+    },
+    {
+      "id": "6",
+      "docNo": "1213666",
+      "projectName": "Layihe6",
+      "year": 2025,
+      "description": "ilk planlama16",
+      "volumeDivision": "Tarixi Məlumatlara Əsaslanan Bölgü",
+      "status": "Aktiv"
+    }
+  ]
+}

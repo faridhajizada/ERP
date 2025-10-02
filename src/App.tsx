@@ -3,7 +3,7 @@ import Login from "./pages/Login/Login";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Plan from "./pages/Plan/Plan";
 import ProtectedRoute from "./ProtectedRoute";
-import PublicRoute from "./ProtectedRoute";
+import PublicRoute from "./PublicRoute";
 
 const App = () => {
   return (
